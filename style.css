@@ -1,9 +1,80 @@
 body {
-
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background: url(images/Metru\ Nui\ Skyline.jpg); 
+    background-size:  2436px 1983px; 
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .section1 {
+    display: flex;
+    flex-flow: column;
+    gap: 40px;
+}
 
+.header {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px ;
+    color: #F9FAF8;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    font-size: 18px;
+    color: #575757;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.synopsis {
+    display: flex;
+    gap: 50px;
+}
+
+.brief {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    width: 509px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.premise {
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    background-color: #777777;
+}
+
+img {
+    border-radius: 16px;
+    border-style: solid;
+    border-width: thick;
+    border-color:#dfdfdf;
 }
 
 .section2 {
@@ -15,7 +86,6 @@ body {
 }
 
 .section4 {
-
 }
 
 .footer {
