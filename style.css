@@ -6,6 +6,7 @@ body {
     background-size:  2436px 1983px; 
     background-position: center;
     background-repeat: no-repeat;
+    gap: 40px;
 }
 
 .section1 {
@@ -78,11 +79,58 @@ img {
 }
 
 .section2 {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 20px;
+}
 
+.productheader {
+    font-size: 36px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+}   
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.product {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.productname {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    color: silver;
 }
 
 .section3 {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 300px;
+    gap: 20px;
+}
 
+.quote {
+    font-size: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    color: silver;
+}
+
+.source {
+    display: flex;
+    color: silver;
+    justify-content: right;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .section4 {
